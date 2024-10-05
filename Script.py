@@ -204,11 +204,15 @@ User - {}"""
 #verified_{}_completed"""
 
 
-    MOVIES_UPDATE_TXT = """<b>#𝑵𝒆𝒘_𝑭𝒊𝒍𝒆_𝑨𝒅𝒅𝒆𝒅 ✅
-**🍿 Title:** {title}
-**🎃 Genres:** {genres}
-**📆 Year:** {year}
-**⭐ Rating:** {rating} / 10
+    MOVIES_UPDATE_TXT = """<b>#New_File_Added
+
+Title: {title}
+Rating: {rating}
+Genre: {genres}
+
+Description: {description}
+
+{file_name}
 </b>"""
 
     PREPLANS_TXT = """<b>👋 ʜᴇʏ {},
